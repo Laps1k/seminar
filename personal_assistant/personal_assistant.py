@@ -156,18 +156,18 @@ def main_menu():
         choice = input("Ваш выбор: ")
 
         if choice == '1':
-            manage_items('Note')  # Переход к функциям управления заметками
+            manage_items('Note')
         elif choice == '2':
-            manage_items('Task')  # Переход к функциям управления задачами
+            manage_items('Task')
         elif choice == '3':
-            manage_items('Contact')  # Переход к функциям управления контактами
+            manage_items('Contact')
         elif choice == '4':
-            manage_items('Finance')  # Переход к функциям управления финансами
+            manage_items('Finance')
         elif choice == '5':
-            calculator()  # Переход к калькулятору
+            calculator()
         elif choice == '6':
             print("Ня, пока!(.")
-            break  # Выход из программы
+            break
         else:
             print("Неправильно! Попробуй еще раз!)")
 
